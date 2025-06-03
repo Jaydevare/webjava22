@@ -16,7 +16,7 @@ public class EmployeeDao
 	{
 		Connection con = null;
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db2","root", "Jay78@devare");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db2","root", "");
 		return con;
 	}
 	
